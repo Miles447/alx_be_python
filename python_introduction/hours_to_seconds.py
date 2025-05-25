@@ -1,6 +1,6 @@
 #assigning values to variables
 hours = 2 # Number of hours
-seconds = 3600  # Number of seconds in one hour
+seconds = 3600   # Number of seconds in one hour
 
 #calculating total seconds
 total_seconds = hours * seconds
