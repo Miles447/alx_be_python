@@ -4,16 +4,16 @@ num2 = float(input("Enter the second number: "))
 operator = input("Choose the operation (+, -, *, /): ")
 #implement a simple calculator using match-case.
 match operator:
-    case "+":
+    case "add":
         result = num1 + num2
         print(f"The result is: {result}")
-    case "-":
+    case "subtract":
         result = num1 - num2
         print(f"The result is: {result}")
-    case "*":
+    case "multiply":
         result = num1 * num2
         print(f"The result is: {result}")
-    case "/":
+    case "divide":
         if num2 == 0:
             print("Cannot divide by zero.")
         else:
