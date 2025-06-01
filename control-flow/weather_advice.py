@@ -9,4 +9,4 @@ elif weather == "cold":
     print("Make sure to wear a warm coat and a scarf.")
 #if weather not in ["sunny", "rainy", "cold"]:
 else:
-    print("I don't have recommendations for this weather.")
+    print("Sorry, I don't have recommendations for this weather.")
