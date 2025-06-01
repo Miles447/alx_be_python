@@ -3,7 +3,7 @@ num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 operator = input("Choose the operation (+, -, *, /): ")
 #implement a simple calculator using match-case.
-match operation:
+match operator:
     case "add":
         result = num1 + num2
         print(f"The result is: {result}")
