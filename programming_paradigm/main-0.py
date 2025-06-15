@@ -1,8 +1,10 @@
+# main-0.py
+
 import sys
 from bank_account import BankAccount
 
 def main():
-    account = BankAccount(50)  # <-- Important: Set to $50 for checker
+    account = BankAccount(50)  # Start with $50 as expected by the checker
 
     if len(sys.argv) < 2:
         print("Usage: python main-0.py <command>:<amount>")
