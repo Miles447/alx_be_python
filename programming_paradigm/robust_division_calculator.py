@@ -15,4 +15,4 @@ def safe_divide(numerator, denominator):
         result = numerator / denominator
         print ("f{result} is the result")
     except ValueError:
-        return"Error: Please enter valid numeric inputs"
+        return "Error: Please enter numeric values only."
